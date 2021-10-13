@@ -1,0 +1,23 @@
+@ formato NOME=VALORE
+@ K: max cassieri
+K=16
+@ C: max clienti nel supermercato
+C=140
+@ E: numero clienti che rientrano, deve essere compreso tra 0 e C
+E=20
+@ T: tempo max per fare acquisti
+T=200
+@ P: max prodotti d'acquistare
+P=200
+@ S1: soglia per far chiudere una cassa
+S1=3
+@ S2: soglia per far aprire una nuova cassa
+S2=14
+@ TP: tempo di gestione di un singolo prodotto da parte del cassiere
+TP=30
+@ Q: numero di casse iniziali con cui aprire
+Q=8
+@ R: intervallo dopo il quale inviare la notifica al direttore
+R=200
+@ log: nome del file di log
+log=log.txt
